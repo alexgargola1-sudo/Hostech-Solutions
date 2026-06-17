@@ -438,3 +438,65 @@ footer{
         text-align:center;
     }
 }
+
+/* =========================
+   MISION Y VISION
+========================= */
+
+.mission-vision{
+    background:#f5f7fb;
+    color:#222;
+}
+
+.mv-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:30px;
+}
+
+.mv-card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.mv-card:hover{
+    transform:translateY(-8px);
+}
+
+.mv-icon{
+    width:70px;
+    height:70px;
+    background:#0ea5ff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:25px;
+}
+
+.mv-icon i{
+    color:white;
+    font-size:30px;
+}
+
+.mv-card h3{
+    font-size:1.8rem;
+    margin-bottom:20px;
+    color:#061122;
+}
+
+.mv-card p{
+    line-height:1.9;
+    color:#555;
+}
+
+@media(max-width:768px){
+
+    .mv-grid{
+        grid-template-columns:1fr;
+    }
+
+}
