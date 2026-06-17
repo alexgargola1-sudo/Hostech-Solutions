@@ -99,7 +99,15 @@ header{
 }
 
 .btn-instagram{
-    background:#E4405F;
+    background: linear-gradient(
+        45deg,
+        #f58529,
+        #feda77,
+        #dd2a7b,
+        #8134af,
+        #515bd4
+    );
+
     padding:12px 20px;
     border-radius:8px;
     text-decoration:none;
@@ -110,11 +118,12 @@ header{
     align-items:center;
     gap:8px;
 
-    transition:.3s;
+    transition:all .3s ease;
 }
 
 .btn-instagram:hover{
     transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(221,42,123,.4);
 }
 
 .btn-instagram i{
