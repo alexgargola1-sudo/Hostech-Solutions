@@ -78,13 +78,20 @@ header{
 }
 
 .btn-whatsapp{
-    background:#0ea5ff;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    background:#25D366;
     color:white;
     text-decoration:none;
     padding:12px 22px;
     border-radius:10px;
     font-weight:600;
     transition:.3s;
+}
+
+.btn-whatsapp i{
+    font-size:18px;
 }
 
 .btn-whatsapp:hover{
