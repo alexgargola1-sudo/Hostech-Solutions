@@ -671,3 +671,28 @@ footer{
     background:#0ea5ff;
     color:white;
 }
+
+/* =========================
+   SOBRE NOSOTROS
+========================= */
+
+.about-company{
+    background:#08172b;
+    color:white;
+}
+
+.about-content{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.about-content p{
+    margin-bottom:25px;
+    line-height:1.9;
+    font-size:1.1rem;
+}
+
+.about-company strong{
+    color:#0ea5ff;
+}
