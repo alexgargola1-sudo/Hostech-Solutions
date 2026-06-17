@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hostech.com.do/sitemap.xml
